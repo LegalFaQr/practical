@@ -1,0 +1,166 @@
+<html>
+<head>
+<title>Practical Home Page</title>
+</head>
+<body bgcolor="orange"><center><br>
+   <!--Stylesheets-->
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2c3333;
+}
+.popup{
+    background-color: #ffffff;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none; 
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: #2c3333;
+    font-size: 30px;
+    color: white;
+    background: #2c3333;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 2px;
+    outline: 2px;
+    cursor: pointer;
+}
+.popup h2{
+  margin-top: -20px;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #2c3333;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 0;
+}
+
+    </style>
+<body bgcolor="orange">
+    <div class="popup">
+<button id="close">&times;</button>
+        <h2><U>Important Please Read</U></h2>
+        <p>
+            <B>This is the main webpage linked to the other webpages starting from here, All the webpages are inter-linked 
+and will get advanced one by one. I have created this project for my final "Computer Application" practical. Hence,I prepared it within two days. Hope you will love to explore.</B></P>
+<font face="lato" color="red" size="4"><p><I><B><U>Note - Every single button works on the webpages, try to explore it fully.</U></B></I>
+        </p>
+    </div>
+    <!--Script-->
+    <script type="text/javascript">
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        20 
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+    </script>
+    <!--Stylesheets-->
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #2c3333;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: yellow;
+}
+</style></head><body>
+<font face="lato" color="White" size="6" align=center >
+<h2><u>Practical Finale</u></h2></font><br>
+<center><iframe src="practical finale.html" width="1880" Height="1000"></iframe></center><br>
+<center><font face="lato" color="yellow"><u><b><h2>Index of the website</h2></font></u></b></center>
+<table>
+
+  <tr>
+    <th><b><font face="lato" color="2c3333">Content</font></b></th>
+    <th><b><font face="lato" color="2c3333">Visit</font></b></th>
+  </tr>
+  <tr>
+    <td><b><font face="lato" color="2c3333">Introduction to html</font></b></td>
+    <td><b><a href="what is html.html">Visit</a></b></td>
+
+  </tr>
+  <tr>
+    <td><b><font face="lato" color="yellow">What are Frames</font></b></td>
+    <td><b><a href="edit.html">Visit</a></b></td>
+
+  </tr>
+  <tr>
+    <td><font face="lato" color="2c3333">What are Iframes</font></td>
+    <td><b><a href="What are Iframes.html">Visit</a></b></td>
+
+  </tr>
+  <tr>
+    <td><font face="lato" color="Yellow">How to insert images in html</font></td>
+    <td><b><a href="###.html">Visit</b></td>
+
+  </tr>
+  <tr>
+    <td><font face="lato" color="2c3333">How to insert videos in html</font></td>
+    <td><b><a href="###.html">Visit</b></td>
+  </tr>
+<tr>
+    <td><font face="lato" color="yellow">How to insert audios in html</font></td>
+    <td><b><a href="###.html">Visit</b></td>
+  </tr>
+ <tr>
+    <td><font face="lato" color="2c3333">What are forms</font></td>
+    <td><b><a href="###.html">Visit</b></td>
+  </tr>
+<tr>
+    <td><font face="lato" color="yellow">Pandemic Caused by Covid</font></td>
+    <td><b><a href="What is css.html">Visit</b></td>
+  </tr>
+  <tr>
+    <td><font face="lato" color="2c3333">Contact Us (Based On Forms)</font></td>
+    <td><a href="Contact me main3.html">Visit</a></td>
+
+  </tr></font>
+
+
+</body>
+</html>
